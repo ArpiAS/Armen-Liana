@@ -30,29 +30,17 @@ body{
   text-align: center;
 }
 .name-info-blok {
-  background: url(bg1.png);
-  background-size: cover;
   height: 135px;
   width: 360px;
-  margin-top: 96%;
+  margin-top: 88%;
   display: flex;
   flex-direction: column;
   padding-top: 10px;
 }
-.name-info-blok h5 {
-  font-size: 42pt;
-  color: #699392;
-  font-family: "Cloude Calligraphy";
-  margin: 0;
-  font-weight: 500;
-  margin-bottom: -30px;
+.name-info-blok img {
+  height: 100%;
 }
-.name-info-blok p {
-  font-size: 14pt;
-  color: #699392;
-  font-family: "Bonnevarc";
-  margin: 0;
-}
+
 .invitation-text-blok {
   margin-top: 80px;
 }
