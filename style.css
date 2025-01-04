@@ -1,0 +1,120 @@
+body{
+  background: url(body-bg.jpg);
+  background-size: cover;
+}
+.mine {
+  text-align: center;
+  width: 360px;
+  margin: auto;
+  background: white;
+  padding-bottom: 30px;
+}
+.video_body {
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  z-index: 1;
+}
+.video_body video {
+  margin: auto;
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+}
+.video_body img {
+  margin-top: 30px;
+  height: 76.69px;
+}
+.name-blok {
+  text-align: center;
+}
+.name-info-blok {
+  background: url(bg1.png);
+  background-size: cover;
+  height: 135px;
+  width: 360px;
+  margin-top: 96%;
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
+}
+.name-info-blok h5 {
+  font-size: 42pt;
+  color: #699392;
+  font-family: "Cloude Calligraphy";
+  margin: 0;
+  font-weight: 500;
+  margin-bottom: -30px;
+}
+.name-info-blok p {
+  font-size: 14pt;
+  color: #699392;
+  font-family: "Bonnevarc";
+  margin: 0;
+}
+.invitation-text-blok {
+  margin-top: 80px;
+}
+.invitation-text {
+  width: 90%;
+  margin: auto;
+  font-family: "DejaVu Sans";
+  color: #727376;
+  font-size: 12px;
+}
+.invitation-text-blok img {
+  width: 245pt;
+}
+.time-blok {
+  width: 90%;
+  margin: auto;
+  margin-top: 40px;
+}
+.time-blok-items {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+
+}
+.first {
+  margin-top: 40px;
+}
+.icon-blok img {
+  margin-bottom: -8px;
+}
+.time-text P {
+  width: 95%;
+  margin: auto;
+  font-family: "DejaVu Sans";
+  font-size: 12pt;
+  padding-top: 20px;
+}
+.time-text span {
+  font-family: "DejaVu Sans Light";
+  font-size: 9pt;
+  padding-top: 0px;
+}
+
+.time {
+  margin-top: 20px;
+  padding-left: 15px;
+  border-left: 2px solid black;
+  font-family: "DejaVu Sans";
+}
+
+.thank-you-blok {
+  width: 90%;
+  margin: auto;
+  margin-top: 40px;
+}
+
+.thank-you-blok h1{
+  font-family: "FMBF Wien";
+  font-weight: 600;
+}
+.title-img,
+.thank-you-blok img {
+  margin-top: 15px;
+  width: 245pt;
+}
