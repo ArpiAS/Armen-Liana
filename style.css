@@ -40,10 +40,7 @@
 .invitation-text-blok {
   margin-top: 80px;
 }
-@font-face {
-  font-family: "DejaVu Sans";
-  src: url("DejaVuSans.ttf") format("truetype");
-}
+
 
 .invitation-text {
   width: 90%;
@@ -101,10 +98,12 @@
   margin: auto;
   margin-top: 40px;
 }
-
-.thank-you-blok h1 {
+@font-face {
   font-family: "FMBF Wien";
   src: url("FMBF_Wien.ttf") format("truetype");
+}
+.thank-you-blok h1 {
+  font-family: "FMBF Wien";
   font-weight: 600;
 }
 .title-img,
