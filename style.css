@@ -1,6 +1,6 @@
 .mine {
   text-align: center;
-  width: 385px;
+  width: 360px;
   margin: auto;
   background: white;
   padding-bottom: 30px;
@@ -38,13 +38,17 @@
 }
 
 .invitation-text-blok {
-  margin-top: 120px;
+  margin-top: 80px;
 }
+@font-face {
+  font-family: "DejaVu Sans";
+  src: url("DejaVuSans.ttf") format("truetype");
+}
+
 .invitation-text {
   width: 90%;
   margin: auto;
   font-family: "DejaVu Sans";
-  src: url("DejaVuSans.ttf") format("truetype");
   color: #727376;
   font-size: 12px;
 }
