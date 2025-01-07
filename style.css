@@ -41,7 +41,6 @@
   margin-top: 80px;
 }
 
-
 .invitation-text {
   width: 90%;
   margin: auto;
@@ -80,12 +79,19 @@
   font-size: 12pt;
   padding-top: 20px;
 }
+@font-face {
+  font-family: "DejaVu Sans Light";
+  src: url("DejaVuSans-ExtraLight.ttf") format("truetype");
+}
 .time-text span {
   font-family: "DejaVu Sans Light";
   font-size: 9pt;
   padding-top: 0px;
 }
-
+@font-face {
+  font-family: "DejaVu Sans";
+  src: url("DejaVuSans.ttf.ttf") format("truetype");
+}
 .time {
   margin-top: 20px;
   padding-left: 15px;
