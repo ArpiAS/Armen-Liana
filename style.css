@@ -1,6 +1,6 @@
 .mine {
   text-align: center;
-  width: 360px;
+  width: 380px;
   margin: auto;
   background: white;
   padding-bottom: 30px;
@@ -38,7 +38,7 @@
 }
 
 .invitation-text-blok {
-  margin-top: 80px;
+  margin-top: 100px;
 }
 
 .invitation-text {
@@ -66,6 +66,9 @@
   text-align: start;
   padding-left: 10px;
 }
+.two{
+  padding-top: 17px;
+}
 .first {
   margin-top: 40px;
 }
@@ -85,7 +88,7 @@
 }
 .time-text span {
   font-family: "DejaVu Sans Light";
-  font-size: 9pt;
+  font-size: 7pt;
   padding-top: 0px;
 }
 @font-face {
@@ -110,10 +113,13 @@
 }
 .thank-you-blok h1 {
   font-family: "FMBF Wien";
-  font-weight: 600;
+  font-weight: 500;
 }
 .title-img,
 .thank-you-blok img {
   margin-top: 15px;
   width: 245pt;
 }
+
+
+
